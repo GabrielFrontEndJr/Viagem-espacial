@@ -69,7 +69,7 @@
 
 		</main>
 		
-		<form align="center">
+		<form>
 		
 		<fieldset>
 		
@@ -78,15 +78,17 @@
 		<div>
 		
 		<label for="nome">Digite seu nome</label><br>
-		<input type="text" id="nome" name="nome">
+		<input type="text" id="nome" name="nome" class="input">
 
 		</div>
-		
+		<br>
 		<div>
 		<label for="pronome">Como deseja ser chamado</label><br>
-		<input type="text" id="pronome" name="pronome"><br>
+		<input type="text" id="pronome" name="pronome" class="input"><br>
 		
 		</div>
+		
+		<br>
 		
 		<div>
 		
@@ -95,8 +97,10 @@
 		
 		</div>
 		
+		<br>
+		
 		<label for="selecao">Destino de viagem</label><br>
-		<select id="planeta" name="selecao" id="selecao">
+		<select id="planeta" name="selecao" id="selecao" class="input">
 		
 			<option>Mercurio</option>
 			<option>Venus</option>
@@ -108,26 +112,34 @@
 			<option>Plutão</option>
 		</select>
 		
+		<br><br>
+		
 		<div>
 			<label for="mensagem">Alguma deficiência?</label><br>
-			<textarea id="mensagem" name="mensagem" rows="5"></textarea><br>
+			<textarea id="mensagem" name="mensagem" rows="5" class="input"></textarea><br>
 		</div>
+		
+		<br>
 		
 		<div>
 		
 			<label for="email">E-mail</label><br>
-			<input type="text" id="email" name="email" placeholder="exemple@exemplemail.com"><br>
+			<input type="text" id="email" name="email" placeholder="exemple@exemplemail.com" class="input"><br>
 		
 		</div>
+		
+		<br>
 		
 		<div>
 		
 			<label for="telefone">Telefone</label><br>
-			<input type="text" id="telefone" name="telefone" placeholder="(99) 9 9999-9999"><br>
+			<input type="text" id="telefone" name="telefone" placeholder="(99) 9 9999-9999" class="input"><br>
 
 		</div>
 		
-		<input type="submit" value="Enviar">
+		<br>
+		
+		<input type="submit" value="Enviar" id="enviar">
 		
 		</fieldset>
 		

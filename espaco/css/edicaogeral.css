@@ -30,10 +30,7 @@ section a{
 	
 }
 
-fieldset {
-	
-	width:auto;
-}
+
 
 nav{
 	float:left;
@@ -121,6 +118,19 @@ form{
 	
 }
 
+fieldset {
+	
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#enviar {
+	
+	margin-left:40%;
+	margin-right:50%;
+	
+}
 
 	@media(min-width:900px){
 		
